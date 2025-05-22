@@ -7,12 +7,12 @@ const ContactPage = () => {
     <div className="contact-page">
       <div className="contact-content">
         <div className="contact-info">
-          <h2>Get in Touch</h2>
+          <h2 className='contact-headers'>Get in Touch</h2>
           <p>
             Have questions or feedback? We'd love to hear from you!
           </p>
           <div className="contact-details">
-            <h3>Our Office</h3>
+            <h3 className='contact-headers'>Our Office</h3>
             <p>Fakultetska 1</p>
             <p>Zenica, Bosnia and Herzegovina 72000</p>
             <p>Email: emir.genjac.24@size.com</p>

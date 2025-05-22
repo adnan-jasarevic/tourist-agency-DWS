@@ -1,10 +1,9 @@
 :root {
-    --primary-color: #5e2bff;
-    --secondary-color: #c2948a;
-    --dark-color: #7ea8be;
-    --light-color: #f6f0ed;
-    --success-color: #2ecc71;
-    --error-color: #e74c3c;
+    --primary-color: #0096C7;     /* Vibrant Blue – trust, clarity, travel vibes */
+--secondary-color: #F4A261;   /* Warm Sand – energy, friendliness */
+--accent-color: #2A9D8F;      /* Tropical Green – nature, freshness */
+--dark-color: #264653;        /* Deep Slate – stability, professionalism */
+--light-color: #E9F5F9;
   }
   
   * {
@@ -21,7 +20,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     color: #333;
-    background-color: #f5f5f5;
+    background-color: #10ABB7;
   }
   
   .app {
@@ -36,7 +35,7 @@
   
   /* Navbar Styles */
   .navbar {
-    background-color: var(--dark-color);
+    background-color:var(--dark-color);
     color: white;
     padding: 1rem 2rem;
   }
@@ -74,7 +73,7 @@
   }
   
   .navbar-link:hover {
-    color: var(--primary-color);
+    color: var(--secondary-color);
   }
   
   .logout-btn {
@@ -165,7 +164,8 @@
   
   /* About Page Styles */
   .about-page {
-    max-width: 800px;
+    min-width: 30rem;
+    color: white;
     margin-top: 3rem;
     margin-bottom: 3rem;
     justify-self: center;
@@ -174,22 +174,33 @@
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
+
+  .about-info {
+    max-width: 30rem;
+    text-align: center;
+    margin-left: 0.5rem;
+  }
   
   .team {
     margin-top: 2rem;
   }
   
   .team-members {
-    display: grid;
-    grid-template-rows: repeat(minmax(250px, 1fr));
-    gap: 1.5rem;
+    display: flex;
+    gap: 2rem;
     margin-top: 1rem;
+  }
+
+  .backend-developer {
+    padding-top:2rem;
+    color: black;
   }
   
   .member {
-    background: var(--light-color);
-    padding: 1rem;
+    background: var(--primary-color);
     border-radius: 8px;
+    width: 50%;
+    padding: 5px;
   }
   
   /* Auth Form Styles */
@@ -260,6 +271,7 @@
   .auth-switch {
     text-align: center;
     margin-top: 1.5rem;
+    color: var(--dark-color);
   }
   
   .auth-switch a {
@@ -295,6 +307,13 @@
     margin-top: 3rem;
     justify-self: center;
     margin-bottom: 3rem;
+  }
+
+  .contact-headers {
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    color:var(--light-color);
   }
   
   .contact-content {
@@ -391,11 +410,14 @@
   
   /* Hero Section */
   .hero-section {
-    background: url('./images/hero.jpg') no-repeat center center/cover;
+    background: url('./images/hero.webp') no-repeat center center/cover;
     color: white;
     text-align: center;
     width: 100%;
     padding: 200px 50px;
+  }
+  .hero-section > img {
+    loading: lazy;
   }
   
   .hero-section h1 {
@@ -408,7 +430,7 @@
   }
   
   .cta-button {
-    background-color: #ff7f50;
+    background-color: var(--dark-color);
     color: white;
     padding: 10px 20px;
     border: none;
@@ -425,26 +447,43 @@
   .featured-destinations {
     padding: 50px 20px;
   }
+
+  .featured-destinations-title {
+    color: white;
+  }
   
   .destinations-grid {
+    margin-top: 2rem;
     display: flex;
     justify-content: center;
     gap: 20px;
   }
   
   .destination-card {
-    background: white;
+    background: var(--dark-color);
+    color: white;
     border: 1px solid #ddd;
     border-radius: 5px;
     overflow: hidden;
     width: 300px;
     text-align: center;
   }
+
+  .destination-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    transition: transform 0.3s;
+  }
   
   .destination-card img {
     width: 100%;
     height: 200px;
     object-fit: cover;
+  }
+
+  .destination-card-info {
+    padding: 30px;
+    color: white;
   }
   
   .destination-card h3 {
@@ -465,17 +504,26 @@
   }
   
   .service-card {
-    background: rgb(228, 235, 8);
+    background: var(--primary-color);
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 20px;
     width: 300px;
     text-align: center;
+    box-shadow:10px rgba(209, 74, 74, 0.1);
+
+  }
+
+  .service-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    transition: transform 0.3s;
   }
 
   .service-info {
     color: rgb(255, 255, 255);
     font-weight: 500;
+    margin-bottom: 2rem;
   }
   
   /* Testimonials Section */
@@ -491,13 +539,29 @@
   }
   
   .testimonial-card {
-    background: #ff7f50;
+    background: var(--dark-color);
     color: white;
     border-radius: 5px;
-    padding: 20px;
+    padding: 40px;
     width: 300px;
     text-align: center;
   }
+
+  .testimonial-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+    transition: transform 0.3s;
+  }
+
+  .testimonial-image {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+    object-fit: cover;
+  }
+
+  
   
   /* Contact Section */
   .contact-section {
@@ -510,7 +574,7 @@
   }
   
   .contact-button {
-    background-color: #ff7f50;
+    background-color: var(--accent-color);
     color: white;
     padding: 10px 20px;
     border: none;
@@ -521,6 +585,23 @@
   
   .contact-button:hover {
     background-color: #ff6347;
+  }
+
+  .back-to-top {
+    position:relative
+  }
+
+  .back-to-top-button {
+    position:absolute;
+    top:10px;
+    right: 20px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
   }
   
   /* Responsive Styles */
