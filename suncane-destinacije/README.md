@@ -20,7 +20,7 @@ Ova aplikacija predstavlja savremenu web platformu turističke agencije. Razvije
 ├── public/
 │ └── index.html
 ├── src/
-│ ├── assets/images/ # Slike korištene u aplikaciji
+│ ├── images/ # Slike korištene u aplikaciji
 │ ├── components/
 │ │ ├── auth/ # Login i Register komponente
 │ │ ├── contact/ # ContactForm i ContactPage
