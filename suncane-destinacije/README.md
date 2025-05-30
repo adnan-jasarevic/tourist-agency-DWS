@@ -83,9 +83,7 @@ Aplikacija nudi sljedeće funkcionalnosti:
 3. Pokreni razvojni server:
    npm start
    Aplikacija će biti dostupna na http://localhost:3000
-   🖼️ Ekrani aplikacije
-   U nastavku su prikazani ekrani aplikacije (dodati kao slike u finalnoj verziji):
-
+   
 - Početna stranica
 - O nama
 - Kontakt forma
