@@ -9,7 +9,8 @@ Ova aplikacija predstavlja savremenu web platformu turističke agencije. Razvije
 - JavaScript
 - React Router
 - Context API (vlastita implementacija)
-  📁 Struktura projekta
+
+📁 Struktura projekta
 
 ```
 /tourist-agency-DWS-main
