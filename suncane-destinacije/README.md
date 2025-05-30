@@ -1,75 +1,91 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+Turistička Agencija - Web Aplikacija
+📌 Uvod
+Ova aplikacija predstavlja savremenu web platformu turističke agencije. Razvijena je s ciljem da korisnicima omogući pregled ponude turističkih aranžmana, informacija o destinacijama te lak kontakt s agencijom. Aplikacija je razvijena koristeći React, HTML i CSS te pruža intuitivno korisničko iskustvo.
+🛠️ Tehnologije korištene u radu
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- React.js
+- HTML5
+- CSS3
+- JavaScript
+- React Router
+- Context API (vlastita implementacija)
+  📁 Struktura projekta
 
-## Available Scripts
+/tourist-agency-DWS-main
+└── tourist-agency-DWS-main
+├── suncane-destinacije/ # Folder s dodatnim sadržajem ili podacima
+├── .gitignore
+├── public/
+│ └── index.html
+├── src/
+│ ├── assets/images/ # Slike korištene u aplikaciji
+│ ├── components/
+│ │ ├── auth/ # Login i Register komponente
+│ │ ├── contact/ # ContactForm i ContactPage
+│ │ ├── layout/ # Footer i Navbar
+│ │ └── pages/ # About, Home, PrivateRoute
+│ ├── context/
+│ │ └── AuthContext.js # Vlastita funkcionalna implementacija contexta
+│ ├── styles.css
+│ ├── App.js
+│ └── index.js
+├── .gitignore
+├── package.json
+└── README.md
 
-In the project directory, you can run:
+✨ Funkcionalnosti i dizajn
+Aplikacija nudi sljedeće funkcionalnosti:
 
-### `npm start`
+- Prikaz ponuda aranžmana
+- Prikaz i detalji destinacija
+- Kontakt forma sa validacijom
+- Navigacija pomoću React Routera
+- Autentifikacija korisnika (Login/Register)
+- Korištenje vlastitog Context API-ja za upravljanje stanjem
+- Responsivan dizajn za mobilne uređaje
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#### Paleta boja
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Primarna boja:** #0096C7 (Vibrant Blue) – povjerenje i jasnoća
+- **Sekundarna boja:** #F4A261 (Warm Sand) – energija i prijateljstvo
+- **Tercijarna (akcentna) boja:** #2A9D8F (Tropical Green) – priroda i svježina
+- **Dodatne boje:**
+  - Tamna (#264653) – stabilnost i profesionalizam, koristi se za navbar i footer
+  - Svijetla (#E9F5F9) – koristi se za pozadine kartica
+  - Pozadinska (#10ABB7) – svijetlo tirkizna za osnovnu pozadinu tijela stranice
 
-### `npm test`
+#### Korišteni fontovi
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Glavni font:** 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif  
+  Koristi se za cijelu web aplikaciju kako bi se osigurala dobra čitljivost i moderan izgled.
 
-### `npm run build`
+- **Nasljedni font:**  
+  Većina UI elemenata nasljeđuje osnovni font tijela stranice, što osigurava konzistentnost i jednostavnost u dizajnu.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+👥 Uloge korisnika
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Administrator
+- Korisnik – pregled sadržaja i slanje upita putem forme
+  👨‍💻 Doprinos članova tima
+- Emir Genjac – frontend razvoj aplikacije (React, komponente, kontekst, stilizacija)
+- Emin Ahbabović – backend funkcionalnosti i povezivanje sa bazom
+- Adnan Jašarević – dizajn korisničkog interfejsa (UI dizajn, odabir boja, raspored elemenata)
+  ▶️ Upute za pokretanje projekta
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Kloniraj repozitorij:
+   git clone https://github.com/emirgenjac/tourist-agency-DWS.git
+2. Instaliraj zavisnosti:
+   npm install
+3. Pokreni razvojni server:
+   npm start
+   Aplikacija će biti dostupna na http://localhost:3000
+   🖼️ Ekrani aplikacije
+   U nastavku su prikazani ekrani aplikacije (dodati kao slike u finalnoj verziji):
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# tourist-agency-DWS
-Završni projekat iz predmeta Dizajn Web Stranica
->>>>>>> f963f317e292bf5981eb3f7544ede0bfdd2045e9
+- Početna stranica
+- O nama
+- Kontakt forma
+- Login / Registracija
+- Mobilni prikaz
+  ✅ Zaključak
+  Ova aplikacija demonstrira upotrebu savremenih web tehnologija u razvoju funkcionalne i vizualno privlačne web stranice za turističku agenciju. Projekat je pružio praktično iskustvo u frontend razvoju koristeći React, komponentnu arhitekturu, upravljanje stanjima putem Context API-ja i responzivan dizajn.
