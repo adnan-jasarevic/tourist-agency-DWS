@@ -11,6 +11,7 @@ Ova aplikacija predstavlja savremenu web platformu turističke agencije. Razvije
 - Context API (vlastita implementacija)
   📁 Struktura projekta
 
+```
 /tourist-agency-DWS-main
 └── tourist-agency-DWS-main
 ├── suncane-destinacije/ # Folder s dodatnim sadržajem ili podacima
@@ -32,6 +33,7 @@ Ova aplikacija predstavlja savremenu web platformu turističke agencije. Razvije
 ├── .gitignore
 ├── package.json
 └── README.md
+```
 
 ✨ Funkcionalnosti i dizajn
 Aplikacija nudi sljedeće funkcionalnosti:
