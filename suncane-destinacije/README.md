@@ -73,7 +73,8 @@ Aplikacija nudi sljedeće funkcionalnosti:
 - Emir Genjac – frontend razvoj aplikacije (React, komponente, kontekst, stilizacija)
 - Emin Ahbabović – backend funkcionalnosti i povezivanje sa bazom
 - Adnan Jašarević – dizajn korisničkog interfejsa (UI dizajn, odabir boja, raspored elemenata)
-  ▶️ Upute za pokretanje projekta
+
+▶️ Upute za pokretanje projekta
 
 1. Kloniraj repozitorij:
    git clone https://github.com/emirgenjac/tourist-agency-DWS.git
@@ -90,5 +91,7 @@ Aplikacija nudi sljedeće funkcionalnosti:
 - Kontakt forma
 - Login / Registracija
 - Mobilni prikaz
-  ✅ Zaključak
-  Ova aplikacija demonstrira upotrebu savremenih web tehnologija u razvoju funkcionalne i vizualno privlačne web stranice za turističku agenciju. Projekat je pružio praktično iskustvo u frontend razvoju koristeći React, komponentnu arhitekturu, upravljanje stanjima putem Context API-ja i responzivan dizajn.
+
+✅ Zaključak
+
+Ova aplikacija demonstrira upotrebu savremenih web tehnologija u razvoju funkcionalne i vizualno privlačne web stranice za turističku agenciju. Projekat je pružio praktično iskustvo u frontend razvoju koristeći React, komponentnu arhitekturu, upravljanje stanjima putem Context API-ja i responzivan dizajn.
