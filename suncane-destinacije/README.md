@@ -70,8 +70,8 @@ Aplikacija nudi sljedeće funkcionalnosti:
 - Administrator
 - Korisnik – pregled sadržaja i slanje upita putem forme
   👨‍💻 Doprinos članova tima
-- Emir Genjac – frontend razvoj aplikacije (React, komponente, kontekst, stilizacija)
-- Emin Ahbabović – backend funkcionalnosti i povezivanje sa bazom
+- Emir Genjac – frontend + backend funkcionalnosti i povezivanje sa bazom
+- Emin Ahbabović – frontend razvoj aplikacije (React, komponente, kontekst, stilizacija)
 - Adnan Jašarević – dizajn korisničkog interfejsa (UI dizajn, odabir boja, raspored elemenata)
 
 ▶️ Upute za pokretanje projekta
