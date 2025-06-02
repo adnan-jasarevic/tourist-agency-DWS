@@ -10,7 +10,7 @@ Ova aplikacija predstavlja savremenu web platformu turističke agencije. Razvije
 - React Router
 - Context API (vlastita implementacija)
 
-/// Struktura projekta
+# Struktura projekta
 
 ```
 /tourist-agency-DWS-main
@@ -36,7 +36,7 @@ Ova aplikacija predstavlja savremenu web platformu turističke agencije. Razvije
 └── README.md
 ```
 
-/// Funkcionalnosti i dizajn
+# Funkcionalnosti i dizajn
 Aplikacija nudi sljedeće funkcionalnosti:
 
 - Prikaz ponuda aranžmana
@@ -65,7 +65,7 @@ Aplikacija nudi sljedeće funkcionalnosti:
 - **Nasljedni font:**  
   Većina UI elemenata nasljeđuje osnovni font tijela stranice, što osigurava konzistentnost i jednostavnost u dizajnu.
 
-/// Uloge korisnika
+# Uloge korisnika
 
 - Administrator
 - Korisnik – pregled sadržaja i slanje upita putem forme
@@ -74,7 +74,7 @@ Aplikacija nudi sljedeće funkcionalnosti:
 - Emin Ahbabović – frontend razvoj aplikacije (React, komponente, kontekst, stilizacija)
 - Adnan Jašarević – dizajn korisničkog interfejsa (UI dizajn, odabir boja, raspored elemenata)
 
-/// Upute za pokretanje projekta
+# Upute za pokretanje projekta
 
 1. Kloniraj repozitorij:
    git clone https://github.com/emirgenjac/tourist-agency-DWS.git
@@ -90,6 +90,6 @@ Aplikacija nudi sljedeće funkcionalnosti:
 - Login / Registracija
 - Mobilni prikaz
 
-/// Zaključak
+# Zaključak
 
 Ova aplikacija demonstrira upotrebu savremenih web tehnologija u razvoju funkcionalne i vizualno privlačne web stranice za turističku agenciju. Projekat je pružio praktično iskustvo u frontend razvoju koristeći React, komponentnu arhitekturu, upravljanje stanjima i responzivan dizajn.
