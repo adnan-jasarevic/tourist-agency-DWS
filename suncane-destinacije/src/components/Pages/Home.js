@@ -18,11 +18,11 @@ const HomePage = () => {
     <div className="homepage">
       {/* Hero Section */}
       <div className="hero-section">
-        <h1>Welcome to Sunlit Destinations</h1>
-        <p>Your gateway to unforgettable travel experiences</p>
+        <h1>Dobrodošli na Sunčane Destinacije</h1>
+        <p>Vaša vrata ka nezaboravnim putničkim iskustvima</p>
         <button className="cta-button">
         <a href="#destinations" style={{ textDecoration: 'none', color: 'white' }}>
-            Explore Destinations
+            Istraži destinacije
         </a>
         </button>
       </div>
@@ -33,18 +33,18 @@ const HomePage = () => {
         <div className="destinations-grid">
           <div className="destination-card">
             <img src={Maldives} loading='lazy' alt="Beach"  />
-            <h3>Maldives</h3>
-            <p className="destination-card-info">Experience the crystal-clear waters and white sandy beaches.</p>
+            <h3>Maldivi</h3>
+            <p className="destination-card-info">Doživite kristalno čisto more i bijele pješčane plaže.</p>
           </div>
           <div className="destination-card">
             <img src={Alps} loading='lazy' alt="Mountains" />
-            <h3>Swiss Alps</h3>
-            <p className="destination-card-info">Discover breathtaking mountain views and cozy chalets.</p>
+            <h3>Švicarske Alpe</h3>
+            <p className="destination-card-info">Otkrijte prekrasne planinske poglede i udobne brvnare.</p>
           </div>
           <div className="destination-card">
             <img src={Paris} loading='lazy' alt="City" />
-            <h3>Paris</h3>
-            <p className="destination-card-info">Explore the city of love with its iconic landmarks and culture.</p>
+            <h3>Pariz</h3>
+            <p className="destination-card-info">Istražite grad ljubavi s njegovim kultnim znamenitostima i kulturom.</p>
           </div>
         </div>
       </div>

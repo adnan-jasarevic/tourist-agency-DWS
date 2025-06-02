@@ -29,17 +29,17 @@ const Register = () => {
     const { name, email, password, confirmPassword } = formData;
     
     if (!name || !email || !password || !confirmPassword) {
-      setError('Please fill in all fields');
+      setError('Popunite sva polja');
       return;
     }
     
     if (password !== confirmPassword) {
-      setError('Passwords do not match');
+      setError('Passwordi se ne podudaraju');
       return;
     }
     
     if (password.length < 6) {
-      setError('Password must be at least 6 characters');
+      setError('Password mora imati barem 6 karaktera');
       return;
     }
     
@@ -47,17 +47,17 @@ const Register = () => {
     if (success) {
       navigate('/login');
     } else {
-      setError('Email already registered');
+      setError('Email već postoji');
     }
   };
 
   return (
     <div className="auth-form-container">
-      <h2>Register</h2>
+      <h2>Registracija</h2>
       {error && <div className="error-message">{error}</div>}
       <form onSubmit={handleSubmit} className="auth-form">
         <div className="form-group">
-          <label htmlFor="name">Name</label>
+          <label htmlFor="name">Ime</label>
           <input
             type="text"
             id="name"
@@ -90,7 +90,7 @@ const Register = () => {
           />
         </div>
         <div className="form-group">
-          <label htmlFor="confirmPassword">Confirm Password</label>
+          <label htmlFor="confirmPassword">Potvrdi Password</label>
           <input
             type="password"
             id="confirmPassword"
@@ -105,7 +105,7 @@ const Register = () => {
         </button>
       </form>
       <p className="auth-switch">
-        Already have an account? <a href="/login">Login</a>
+        Već imaš profil? <a href="/login">Loginuj se</a>
       </p>
     </div>
   );

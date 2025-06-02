@@ -6,10 +6,10 @@ const About = () => {
     <div className="about-page">
       <h1>About Us</h1>
       <p className='about-info'>
-        Suncane Destinacije is a dedicated tourist agency committed to helping you discover the most beautiful and sunny destinations around the world. Our mission is to provide personalized travel experiences, tailored to your preferences and needs. With a passion for travel and years of expertise, our team ensures every journey is memorable, comfortable, and filled with unforgettable moments.
+        Suncane Destinacije je turistička agencija posvećena tome da vam pomogne da otkrijete najljepše i najsunčanije destinacije širom svijeta. Naša misija je da pružimo personalizirana putovanja, prilagođena vašim preferencijama i potrebama. Sa strašću za putovanjima i dugogodišnjim iskustvom, naš tim osigurava da svako putovanje bude nezaboravno, udobno i ispunjeno nezaboravnim trenucima.
       </p>
       <section className="team">
-        <h2>Our Team</h2>
+        <h2>Naš tim</h2>
         <p></p>
         <div className="team-members">
           <div className="member">

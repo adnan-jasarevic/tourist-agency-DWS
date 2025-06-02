@@ -53,11 +53,11 @@ const Login = () => {
           />
         </div>
         <button type="submit" className="submit-btn">
-          Login
+          Prijavi se
         </button>
       </form>
       <p className="auth-switch">
-        Don't have an account? <a href="/register">Register</a>
+        Nemaš profil? <a href="/register">Registriraj se</a>
       </p>
     </div>
   );
