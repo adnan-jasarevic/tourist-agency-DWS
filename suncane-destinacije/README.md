@@ -1,14 +1,18 @@
 Turistička Agencija - Web Aplikacija
+
 📌 Uvod
+
 Ova aplikacija predstavlja savremenu web platformu turističke agencije. Razvijena je s ciljem da korisnicima omogući pregled ponude turističkih aranžmana, informacija o destinacijama te lak kontakt s agencijom. Aplikacija je razvijena koristeći React, HTML i CSS te pruža intuitivno korisničko iskustvo.
+
 🛠️ Tehnologije korištene u radu
+
 
 - React.js
 - HTML5
 - CSS3
 - JavaScript
 - React Router
-- Context API (vlastita implementacija)
+- Context (vlastita implementacija)
 
 # Struktura projekta
 
@@ -44,7 +48,7 @@ Aplikacija nudi sljedeće funkcionalnosti:
 - Kontakt forma sa validacijom
 - Navigacija pomoću React Routera
 - Autentifikacija korisnika (Login/Register)
-- Korištenje vlastitog Context API-ja za upravljanje stanjem
+- Korištenje vlastitog Context-a za upravljanje stanjem
 - Responsivan dizajn za mobilne uređaje
 
 #### Paleta boja
