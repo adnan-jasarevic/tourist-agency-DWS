@@ -1,8 +1,8 @@
 :root {
-  --primary-color: #0096C7;     /* Vibrant Blue – trust, clarity, travel vibes */
-  --secondary-color: #F4A261;   /* Warm Sand – energy, friendliness */
-  --accent-color: #2A9D8F;      /* Tropical Green – nature, freshness */
-  --dark-color: #264653;        /* Deep Slate – stability, professionalism */
+  --primary-color: #0096C7;
+  --secondary-color: #F4A261;
+  --accent-color: #2A9D8F;
+  --dark-color: #264653;
   --light-color: #E9F5F9;
   --text-color: #222;
   --background-color: #10ABB7;
@@ -144,7 +144,7 @@
     text-decoration: underline;
   }
   
-  /* Home Page Styles */
+  /* HOME PAGE STYLES */
 
   h1,h2,h3 {
     text-align: center;
@@ -187,7 +187,7 @@
     margin-bottom: 0.5rem;
   }
   
-  /* About Page Styles */
+  /* about stranica stilovy */
   .about-page {
     min-width: 30rem;
     color: white;
@@ -228,7 +228,7 @@
     padding: 5px;
   }
   
-  /* Auth Form Styles */
+  /* auth form stilovi */
   .auth-form-container {
   max-width: 400px;
   margin: 40px auto;
@@ -293,8 +293,8 @@
     margin-top: 0.5rem;
     transition: background 0.2s, transform 0.1s;
     box-shadow: 0 2px 8px rgba(60,60,120,0.08);
-    width: 100%; /* Make button full width */
-    display: block; /* Ensures it fills the container */
+    width: 100%;
+    display: block;
 }
 
   .submit-btn:hover {
@@ -404,7 +404,7 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
   
-  /* Admin Page Styles */
+  /* admin page styles */
   .admin-page {
     max-width: 1200px;
     margin: 0 auto;
@@ -439,7 +439,7 @@
     color: var(--primary-color);
   }
 
-  /* General Styles */
+  /* generalni stilovi */
 
   
   p {
@@ -483,7 +483,7 @@
     transition: color 0.3s;
   }
   
-  /* Remove the light theme override for hero-section text */
+  /* bez light theme override za hero sekciju */
   [data-theme="light"] .hero-section h1,
   [data-theme="light"] .hero-section p {
     color: #f1faee;
@@ -508,7 +508,7 @@
     box-shadow: 0 8px 20px rgba(0,0,0,0.2);
   }
   
-  /* Featured Destinations */
+  /* Featured destinejsns */
   .featured-destinations {
     padding: 50px 20px;
   }
@@ -557,7 +557,7 @@
     margin: 10px 0;
   }
   
-  /* Services Section */
+  /* Services sekcija */
   .services-section {
     background-color: #f9f9f9;
     padding: 50px 20px;
@@ -593,7 +593,7 @@
     margin-bottom: 2rem;
   }
   
-  /* Testimonials Section */
+  /* ne pitaj */
   .testimonials-section {
     padding: 50px 20px;
   }
@@ -612,7 +612,7 @@
     padding: 40px;
     width: 300px;
     text-align: center;
-    /* Add a thin white border for visibility in dark theme */
+    /* tanki bijeli border da se bolje vidi u dark temi */
   
     box-shadow: 0 4px 8px rgba(0,0,0,0.18);
   }
@@ -637,7 +637,7 @@
 
   
   
-  /* Contact Section */
+  /* Contact sekcija */
   .contact-section {
     background-color: #f9f9f9;
     padding: 50px 20px;
@@ -671,7 +671,7 @@
   bottom: 32px;
   right: 32px;
   z-index: 1000;
-  background: rgba(44, 62, 80, 0.92); /* darker, more visible */
+  background: rgba(44, 62, 80, 0.92);
   color: #fff;
   border: 2px solid #fff;
   border-radius: 50%;
@@ -695,12 +695,12 @@
 }
 
 .back-to-top-button:hover {
-  background: rgba(0, 150, 199, 0.98); /* use your --primary-color for hover */
+  background: rgba(0, 150, 199, 0.98); /* koristi se primarna boja kad hoverujemo preko backtotop dugmeta */
   border-color: var(--accent-color);
   transform: scale(1.08);
 }
   
-  /* Responsive Styles */
+  /* responsive stilovi */
   @media (max-width: 768px) {
     .navbar-container {
       flex-direction: column;
@@ -789,7 +789,7 @@
   box-shadow: 0 4px 24px rgba(0,0,0,0.45);
 }
 
-/* Add a stronger border for forms and main containers if needed */
+/* dodaje jaci border ako je potrebno */
 [data-theme="dark"] .auth-form-container,
 [data-theme="dark"] .contact-form-section,
 [data-theme="dark"] .about-page,

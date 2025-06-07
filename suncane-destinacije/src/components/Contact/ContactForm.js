@@ -103,15 +103,15 @@ const ContactForm = () => {
 
   return (
     <div className="contact-form-container">
-      <h2>Contact Us</h2>
+      <h2>Kontaktirajte Nas</h2>
       {submitted && (
         <div className="success-message">
-          Thank you for your message! We'll get back to you soon.
+          Hvala vam na poruci! Uskoro ćemo vam se javiti.
         </div>
       )}
       <form onSubmit={handleSubmit} className="contact-form">
         <div className="form-group">
-          <label htmlFor="name">Name</label>
+          <label htmlFor="name">Ime</label>
           <input
             type="text"
             id="name"
@@ -123,7 +123,7 @@ const ContactForm = () => {
           {errors.name && <span className="error-text">{errors.name}</span>}
         </div>
         <div className="form-group">
-          <label htmlFor="email">Email</label>
+          <label htmlFor="email">E-mail</label>
           <input
             type="email"
             id="email"
@@ -135,7 +135,7 @@ const ContactForm = () => {
           {errors.email && <span className="error-text">{errors.email}</span>}
         </div>
         <div className="form-group">
-          <label htmlFor="message">Message</label>
+          <label htmlFor="message">Poruka</label>
           <textarea
             id="message"
             name="message"
@@ -147,7 +147,7 @@ const ContactForm = () => {
           {errors.message && <span className="error-text">{errors.message}</span>}
         </div>
         <button type="submit" className="submit-btn">
-          Send Message
+          Pošalji Poruku
         </button>
       </form>
     </div>

@@ -29,11 +29,11 @@ const Login = () => {
 
   return (
     <div className="auth-form-container">
-      <h2>Login</h2>
+      <h2>Prijava</h2>
       {error && <div className="error-message">{error}</div>}
       <form onSubmit={handleSubmit} className="auth-form">
         <div className="form-group">
-          <label htmlFor="email">Email</label>
+          <label htmlFor="email">E-mail</label>
           <input
             type="email"
             id="email"
@@ -43,7 +43,7 @@ const Login = () => {
           />
         </div>
         <div className="form-group">
-          <label htmlFor="password">Password</label>
+          <label htmlFor="password">Lozinka</label>
           <input
             type="password"
             id="password"
@@ -57,7 +57,7 @@ const Login = () => {
         </button>
       </form>
       <p className="auth-switch">
-        Nemaš profil? <a href="/register">Registriraj se</a>
+        Nemaš profil? <a href="/register">Registruj se</a>
       </p>
     </div>
   );
