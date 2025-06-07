@@ -95,7 +95,7 @@ const HomePage = () => {
       {/* Contact Section */}
       <div className="contact-section">
         <h2>Contact Us</h2>
-        <p>Have questions? We're here to help!</p>
+        <p></p>
         <button className="contact-button" onClick={() => navigate('/contact')}>Get in Touch</button>
       </div>
 

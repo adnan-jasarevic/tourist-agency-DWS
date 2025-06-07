@@ -2,8 +2,9 @@ import React, { useContext } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../context/AuthContext';
 import '../../styles.css';
+import ThemeToggle from './ThemeToggle';
 
-const Navbar = () => {
+const Navbar = ({ theme, setTheme }) => {
   const { user, logout } = useContext(AuthContext);
   const navigate = useNavigate();
 
@@ -64,6 +65,7 @@ const Navbar = () => {
             </>
           )}
         </ul>
+        <ThemeToggle theme={theme} setTheme={setTheme} />
       </div>
     </nav>
   );
