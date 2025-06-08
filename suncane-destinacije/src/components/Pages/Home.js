@@ -17,7 +17,7 @@ const HomePage = () => {
   return (
     <div className="homepage">
       {/* Hero Section */}
-      <div className="hero-section">
+      <div className="hero-section" data-aos="fade-up">
         <h1>Dobrodošli na Sunčane Destinacije</h1>
         <p>Vaša vrata ka nezaboravnim putničkim iskustvima</p>
         <button className="cta-button">
@@ -28,7 +28,7 @@ const HomePage = () => {
       </div>
 
       {/* Featured Destinations Section */}
-      <div className="featured-destinations" id='destinations'>
+      <div className="featured-destinations" id='destinations' data-aos="fade-up">
         <h2 className="featured-destinations-title">Istaknute Destinacije</h2>
         <div className="destinations-grid">
           <div className="destination-card">
@@ -50,7 +50,7 @@ const HomePage = () => {
       </div>
 
       {/* Services Section */}
-      <div className="services-section">
+      <div className="services-section" data-aos="fade-up">
         <h2>Our Services</h2>
         <div className="services-grid">
           <div className="service-card">
@@ -72,7 +72,7 @@ const HomePage = () => {
       </div>
 
       {/* Testimonials Section */}
-      <div className="testimonials-section">
+      <div className="testimonials-section" data-aos="fade-up">
         <h2 className='featured-destinations-title'>Iskustva korisnika</h2>
         <div className="testimonials-grid">
           <div className="testimonial-card">
@@ -93,7 +93,7 @@ const HomePage = () => {
       </div>
       
       {/* Contact Section */}
-      <div className="contact-section">
+      <div className="contact-section" data-aos="fade-up">
         <h2>Kontaktirajte nas</h2>
         <p></p>
         <button className="contact-button" onClick={() => navigate('/contact')}>Kontakt</button>
