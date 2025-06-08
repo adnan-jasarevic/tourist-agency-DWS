@@ -109,4 +109,44 @@ Ova aplikacija demonstrira upotrebu savremenih web tehnologija u razvoju funkcio
 
 # Slike projekta
 
-![home](src/images/slike-projekat/Picture10)
+
+### HOME
+
+![Picture4](src/images/slike-projekat/Picture4.png)
+
+### ABOUT
+
+![Picture5](src/images/slike-projekat/Picture5.png)
+
+### CONTACT
+
+![Picture6](src/images/slike-projekat/Picture6.png)
+
+### MAP
+
+![Picture7](src/images/slike-projekat/Picture7.png)
+
+### LOGIN
+
+![Picture8](src/images/slike-projekat/Picture8.png)
+
+### ADMIN DASHBOARD
+
+![Picture9](src/images/slike-projekat/Picture9.png)
+
+### LOCAL STORAGE
+
+![Picture10](src/images/slike-projekat/Picture10.png)
+
+### EMAIL
+
+![Picture11](src/images/slike-projekat/Picture11.png)
+
+### EMAIL
+
+![Picture12](src/images/slike-projekat/Picture12.png)
+
+### EMAIL
+
+![Picture13](src/images/slike-projekat/Picture13.png)
+
