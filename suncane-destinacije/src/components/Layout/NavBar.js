@@ -22,17 +22,17 @@ const Navbar = ({ theme, setTheme }) => {
         <ul className="navbar-menu">
           <li className="navbar-item">
             <Link to="/" className="navbar-link">
-              Home
+              Početna
             </Link>
           </li>
           <li className="navbar-item">
             <Link to="/about" className="navbar-link">
-              About
+              O Nama
             </Link>
           </li>
           <li className="navbar-item">
             <Link to="/contact" className="navbar-link">
-              Contact
+              Kontakt
             </Link>
           </li>
           {user ? (
@@ -46,7 +46,7 @@ const Navbar = ({ theme, setTheme }) => {
               )}
               <li className="navbar-item">
                 <button onClick={handleLogout} className="navbar-link logout-btn">
-                  Logout
+                  Odjava
                 </button>
               </li>
             </>
@@ -54,12 +54,12 @@ const Navbar = ({ theme, setTheme }) => {
             <>
               <li className="navbar-item">
                 <Link to="/login" className="navbar-link">
-                  Login
+                  Prijavi se
                 </Link>
               </li>
               <li className="navbar-item">
                 <Link to="/register" className="navbar-link">
-                  Register
+                  Registracija
                 </Link>
               </li>
             </>

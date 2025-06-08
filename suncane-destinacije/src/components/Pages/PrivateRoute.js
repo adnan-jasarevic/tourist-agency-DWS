@@ -31,15 +31,15 @@ const PrivateRoute = ({ role }) => {
     <div className="admin-page">
       <h1>Admin Dashboard</h1>
       <div className="admin-content">
-        <h2>Welcome, Admin!</h2>
-        <p>This is the admin dashboard with restricted access.</p>
+        <h2>Dobrodošao, Admin!</h2>
+        <p>Ovo je admin dashboard sa ograničenim pristupom.</p>
         <div className="admin-stats">
           <div className="stat-card">
-            <h3>Total Users</h3>
+            <h3>Korisnici</h3>
             <p>{stats.totalUsers}</p>
           </div>
           <div className="stat-card">
-            <h3>Messages</h3>
+            <h3>Poruke</h3>
             <p>{stats.totalMessages}</p>
           </div>
         </div>

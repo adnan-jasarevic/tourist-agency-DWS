@@ -17,7 +17,7 @@ const HomePage = () => {
   return (
     <div className="homepage">
       {/* Hero Section */}
-      <div className="hero-section">
+      <div className="hero-section" data-aos="fade-up">
         <h1>Dobrodošli na Sunčane Destinacije</h1>
         <p>Vaša vrata ka nezaboravnim putničkim iskustvima</p>
         <button className="cta-button">
@@ -28,8 +28,8 @@ const HomePage = () => {
       </div>
 
       {/* Featured Destinations Section */}
-      <div className="featured-destinations" id='destinations'>
-        <h2 className="featured-destinations-title">Featured Destinations</h2>
+      <div className="featured-destinations" id='destinations' data-aos="fade-up">
+        <h2 className="featured-destinations-title">Istaknute Destinacije</h2>
         <div className="destinations-grid">
           <div className="destination-card">
             <img src={Maldives} loading='lazy' alt="Beach"  />
@@ -50,61 +50,55 @@ const HomePage = () => {
       </div>
 
       {/* Services Section */}
-      <div className="services-section">
+      <div className="services-section" data-aos="fade-up">
         <h2>Our Services</h2>
         <div className="services-grid">
           <div className="service-card">
-            <h3 className='service-info'>Travel Planning</h3>
-            <p className='service-info'>Let us help you plan your perfect trip with ease.</p>
+            <h3 className='service-info'>Planiranje Putovanja</h3>
+            <p className='service-info'>Dozvolite nam da vam pomognemo da s lakoćom isplanirate svoje savršeno putovanje.</p>
             <img src={Plane} alt="Plane" />
           </div>
           <div className="service-card">
-            <h3 className='service-info'>Accommodation</h3>
-            <p className='service-info'>Find the best hotels and stays for your journey.</p>
+            <h3 className='service-info'>Smještaj</h3>
+            <p className='service-info'>Pronađite najbolje hotele i smještaje za vaše putovanje.</p>
              <img src={Hotel} alt="Hotel" />
           </div>
           <div className="service-card">
-            <h3 className='service-info'>Guided Tours</h3>
-            <p className='service-info'>Enjoy guided tours to make the most of your travels.</p>
+            <h3 className='service-info'>Ture sa Vodičem</h3>
+            <p className='service-info'>Uživajte u vođenim obilascima kako biste maksimalno iskoristili svoja putovanja.</p>
              <img src={Bus} alt="Bus" />
           </div>
         </div>
       </div>
 
       {/* Testimonials Section */}
-      <div className="testimonials-section">
-        <h2 className='featured-destinations-title'>What Our Customers Say</h2>
+      <div className="testimonials-section" data-aos="fade-up">
+        <h2 className='featured-destinations-title'>Iskustva korisnika</h2>
         <div className="testimonials-grid">
           <div className="testimonial-card">
             <div className="testimonial-card-image">
               <img src={Man} loading='lazy' alt="Man" className='testimonial-image' />
             </div>
-            <p>"The trip was amazing! Everything was perfectly organized."</p>
-            <h4>- John Doe</h4>
+            <p>"Putovanje je bilo fantastično! Sve je bilo savršeno organizovano."</p>
+            <h4>- Visočanin</h4>
           </div>
           <div className="testimonial-card">
             <div className="testimonial-card-image">
               <img src={Woman} loading='lazy' alt="Woman" className='testimonial-image'/>
             </div>
-            <p>"I had the best vacation of my life thanks to suncanedestinacije."</p>
-            <h4>- Jane Smith</h4>
+            <p>"Imala sam najbolji odmor u životu zahvaljujući suncanedestinaciji."</p>
+            <h4>- Fatima</h4>
           </div>
         </div>
       </div>
       
       {/* Contact Section */}
-      <div className="contact-section">
-        <h2>Contact Us</h2>
+      <div className="contact-section" data-aos="fade-up">
+        <h2>Kontaktirajte nas</h2>
         <p></p>
-        <button className="contact-button" onClick={() => navigate('/contact')}>Get in Touch</button>
+        <button className="contact-button" onClick={() => navigate('/contact')}>Kontakt</button>
       </div>
 
-      {/* Back to Top Button */}
-      <div className="back-to-top">
-        <button className="back-to-top-button" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-          Back to Top
-        </button>
-      </div>
       </div>
   );
 };

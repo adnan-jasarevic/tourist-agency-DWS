@@ -68,7 +68,7 @@ const Register = () => {
           />
         </div>
         <div className="form-group">
-          <label htmlFor="email">Email</label>
+          <label htmlFor="email">E-mail</label>
           <input
             type="email"
             id="email"
@@ -79,7 +79,7 @@ const Register = () => {
           />
         </div>
         <div className="form-group">
-          <label htmlFor="password">Password</label>
+          <label htmlFor="password">Lozinka</label>
           <input
             type="password"
             id="password"
@@ -90,7 +90,7 @@ const Register = () => {
           />
         </div>
         <div className="form-group">
-          <label htmlFor="confirmPassword">Potvrdi Password</label>
+          <label htmlFor="confirmPassword">Potvrdi Lozinku</label>
           <input
             type="password"
             id="confirmPassword"
@@ -105,7 +105,7 @@ const Register = () => {
         </button>
       </form>
       <p className="auth-switch">
-        Već imaš profil? <a href="/login">Loginuj se</a>
+        Već imaš profil? <a href="/login">Prijava</a>
       </p>
     </div>
   );
