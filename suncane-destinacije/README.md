@@ -28,7 +28,7 @@ Ova aplikacija predstavlja savremenu web platformu turističke agencije. Razvije
 │ ├── components/
 │ │ ├── auth/ # Login i Register komponente
 │ │ ├── contact/ # ContactForm i ContactPage
-│ │ ├── layout/ # Footer i Navbar
+│ │ ├── layout/ # Footer, Navbar, BackToTop i ThemeToggle
 │ │ └── pages/ # About, Home, PrivateRoute
 │ ├── context/
 │ │ └── AuthContext.js # Vlastita funkcionalna implementacija contexta
@@ -50,6 +50,8 @@ Aplikacija nudi sljedeće funkcionalnosti:
 - Autentifikacija korisnika (Login/Register)
 - Korištenje vlastitog Context-a za upravljanje stanjem
 - Responsivan dizajn za mobilne uređaje
+- Light-Dark theme button
+- Back-to-top button
 
 #### Paleta boja
 
@@ -76,16 +78,23 @@ Aplikacija nudi sljedeće funkcionalnosti:
   /// Doprinos članova tima
 - Emir Genjac – frontend + backend funkcionalnosti i povezivanje sa bazom
 - Emin Ahbabović – frontend razvoj aplikacije (React, komponente, kontekst, stilizacija)
-- Adnan Jašarević – dizajn korisničkog interfejsa (UI dizajn, odabir boja, raspored elemenata)
+- Adnan Jašarević – dizajn korisničkog interfejsa (UI dizajn, odabir boja, raspored elemenata, animacije)
 
 # Upute za pokretanje projekta
 
 1. Kloniraj repozitorij:
+   
    git clone https://github.com/emirgenjac/tourist-agency-DWS.git
-2. Instaliraj zavisnosti:
+3. Udji u folder:
+   
+   cd tourist-agency-DWS/suncane-destinacije/
+5. Instaliraj pakete:
+   
    npm install
-3. Pokreni razvojni server:
+7. Pokreni razvojni server
+   
    npm start
+   
    Aplikacija će biti dostupna na http://localhost:3000
    
 - Početna stranica
